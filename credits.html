@@ -1,1 +1,99 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Credits – MadDumb</title>
+  <meta name="description" content="Credits and contributors for MadDumb mobile game." />
+  <link rel="stylesheet" href="Css/Style.css">
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <nav class="nav">
+      <div class="brand">
+        <img class="logo" aria-hidden="true" src="Assets/Logo(512).png">
+        <span>MadDumb · Credits</span>
+      </div>
+      <span class="pill" id="lastUpdated">Updated: 09 Oct 2025</span>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="wrap">
+    <section class="card section" id="intro">
+      <h1>Credits</h1>
+      <p>Thanks for playing <strong>MadDumb</strong>. This page lists contributors, assets, and libraries used in the game.</p>
+      <div class="chips" aria-label="Credits tags">
+        <span class="chip">Unity</span>
+        <span class="chip">C#</span>
+        <span class="chip">AdMob</span>
+        <span class="chip">Free Assets</span>
+        <span class="chip">Sound/Music</span>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card section" id="dev-team">
+        <h2>1) Development Team</h2>
+        <ul>
+             <li><strong>CEO :</strong> Anshu Thakur</li>
+          <li><strong>Game Design & Programming:</strong> Ashutosh Thakur</li>
+          <li><strong>UI/UX Design:</strong> Anshu Thakur & Ashutosh Thakur</li>
+          <li><strong>Sound & Music:</strong> Self / Pixabay</li>
+        </ul>
+      </section>
+
+      <section class="card section" id="assets">
+        <h2>2) Game Assets</h2>
+        <ul>
+          <li><strong>Graphics:</strong> Custom-made </li>
+          <li><strong>Audio:</strong> Internet / Self</li>
+          <li><strong>Fonts:</strong> Open-source</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="card section" id="libraries">
+      <h2>3) Libraries & SDKs</h2>
+      <ul>
+        <li>Google AdMob SDK</li>
+
+        <li>Cinemachine & Post Processing Stack</li>
+      </ul>
+    </section>
+
+    <section class="card section" id="special-thanks">
+      <h2>4) Special Thanks</h2>
+      <ul>
+        <li>Our testers for feedback and bug reporting</li>
+        <li>Community forums and online tutorials</li>
+        <li>Our Ceo "Anshu Thakur"</li>
+        <li>Cheif collector "Nikhil Sharma"</li>
+        <li>Open-source contributors for assets and code snippets</li>
+      </ul>
+    </section>
+
+    <section class="card section" id="contact">
+      <h2>5) Contact</h2>
+      <p>If you want to reach out or report credit corrections:</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:neofluxgmr@gmail.com">neofluxgmr@gmail.com</a></li>
+        <li><strong>Studio:</strong> Neoflux Studio, Bihar, India</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> <span class="mono">Neoflux Studio</span>. All rights reserved. · <a href="#intro">Credits</a></p>
+    </footer>
+  </main>
+
+  <!-- ===== SCRIPT ===== -->
+  <script>
+    (function() {
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
